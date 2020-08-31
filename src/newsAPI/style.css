@@ -1,0 +1,43 @@
+h1{
+    font-size: 6em;
+    font-family: arial;
+    text-align: center;
+}
+nav{
+    display: flex;
+    list-style-type: none;
+    background-color: lightyellow;
+}
+li{
+    margin: 2em;
+    width: 50%;
+}
+a{
+    font-size: 3em;
+    text-decoration: none;
+}
+#search{
+    font-size: 2.5em;
+    padding: 0.5em;
+    border: 2px black solid;
+    margin-top: 1em;
+}
+
+/*Article*/
+.articles{
+    font-size: 2.5em;
+    margin: 2em;
+    font-family: arial;
+}
+.article-title{
+    font-weight: bold;
+}
+.article-description{
+    margin-top: 2em;
+}
+.article-url{
+    margin-top: 3em;
+    font-style: italic;
+    color: red;
+    font-size: 0.4em;
+}

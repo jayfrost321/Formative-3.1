@@ -1,38 +1,62 @@
-.App {
+/*Header Section*/
+h1{
+  font-size: 6em;
+  font-family: arial;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header{
+  background-color: lightyellow;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-evenly;
+  list-style-type: none;
+  background-color: lightyellow;
+}
+li{
+  text-align: center;
+  padding: 1em;
+}
+a{
+  font-size: 2em;
+  text-decoration: none;
+  text-align: center;
+}
+li:hover{
+  background-color: gold;
+}
+.search{
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 2em;
+}
+.searchinput{
+  font-size: 2em;
+  margin-top: 1em;
 }
 
-.App-link {
-  color: #61dafb;
+/*Article*/
+.articles{
+  font-size: 2.5em;
+  margin: 2em;
+  font-family: arial;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.article{
+  border:thin red solid;
+  margin-bottom: 2em;
+  padding: 1em;
+}
+.article-title{
+  font-weight: bold;
+}
+.article-description{
+  margin-top: 2em;
+  font-size: 0.4em;
+}
+.article-url{
+  margin-top: 3em;
+  font-style: italic;
+  color: red;
+  font-size: 0.4em;
 }
